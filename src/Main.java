@@ -33,11 +33,11 @@ public class Main {
 
             // Optional: Apply logic for feedback
             if (score == qa.size()) {
-                System.out.println("🌟 Excellent! You got all correct!");
+                System.out.println(" Excellent! You got all correct!");
             } else if (score >= qa.size() / 2) {
-                System.out.println("👍 Good effort!");
+                System.out.println("Good effort!");
             } else {
-                System.out.println("📘 Keep practicing!");
+                System.out.println("Keep practicing!");
             }
         }
         sc.close();
